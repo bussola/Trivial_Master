@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+ *    Copyright 2010 Chris Sinjakli
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <string name="app_name">Quiz Novelístico</string>
+    
+    <!-- Home screen -->
+    <!-- Number of questions to be asked in this quiz -->
+    <string name="number_of_questions">Numero de perguntas:</string>
+    <!-- Displayed on the button which begins the quiz when clicked -->
+    <string name="start_quiz">Começar Quiz</string>
+    
+    <!-- Displayed during the course of a quiz -->
+    <!-- Question answered correctly -->
+    <string name="answer_correct">Certo!</string>
+    <!-- Question answered incorrectly -->
+    <string name="answer_incorrect">Errado!</string>
+    
+    <!-- Displayed at the end of a quiz -->
+    <!-- End of quiz header -->
+    <string name="quiz_end_header">Fim do Quiz</string>
+    <!-- Number of correct answers header -->
+    <string name="correct_answers_header">Certo</string>
+    <!-- Number of incorrect answers header -->
+    <string name="incorrect_answers_header">Errado</string>
+    <!-- End of quiz accept button -->
+    <string name="quiz_end_accept_button">Voltar ao menu</string>
+    
+    <!-- Error strings -->
+    
+    <!-- Invalid input for number of questions -->
+    <string name="invalid_number_of_questions">O numero de questoes é inválido.</string>
+    <!-- Problem while loading the questions from the asset files -->
+    <string name="question_reading_exception">Ocorreu um erro. Por favor envie um email aos desenvolvedores.</string>
+	<!-- Number of strings that could not be parsed -->
+	<plurals name="question_reading_parse_fail_number">
+        <item quantity="one">Ocorreu um erro. Por favor envie um email aos desenvolvedores.</item>
+        <item quantity="other">Ocorreu um erro. Por favor envie um email aos desenvolvedores.</item>
+    </plurals>
+
+</resources>
